@@ -6,6 +6,7 @@ listTopics();
 
 console.log('Which topic should we study first?');
 selectTopic();
+
 /* if (0) {
     console.log("I'm 0!")
  } else if (null) {
@@ -14,6 +15,7 @@ selectTopic();
     console.log("I'm true!")
  } */
  /* const topics = ['HTML', 'CSS', 'Git', 'JavaScript']; */
+ 
  function listTopics()  {
    for(let i = 0; i <topics.length; i++)  {
       console.log(topics[i])
